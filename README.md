@@ -1,0 +1,2 @@
+# kotlin-practice
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8a18010f0e8a4193868fee13fbb1dabd)](https://app.codacy.com/gh/sw-enbe/kotlin-practice?utm_source=github.com&utm_medium=referral&utm_content=sw-enbe/kotlin-practice&utm_campaign=Badge_Grade)

@@ -19,7 +19,7 @@ jobs:
           curl -Ls https://coverage.codacy.com/get.sh | bash
           ./codacy-analysis-cli analyze \
             -r ./src \
-            -t ${{ secrets.CODACY_PROJECT_TOKEN }}
+            --project-token=${{ secrets.CODACY_PROJECT_TOKEN }}
 
   # 2. 테스트 실행 (JUnit + Kover 커버리지)
   test:

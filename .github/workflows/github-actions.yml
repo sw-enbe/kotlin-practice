@@ -14,12 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download Codacy CLI
-        run: |
-          curl -Ls https://coverage.codacy.com/get.sh | bash
-
       - name: Run Codacy Static Analysis
         run: |
+          curl -Ls https://coverage.codacy.com/get.sh | bash
           ./codacy-analysis-cli analyze \
             -r ./src \
             -t ${{ secrets.CODACY_PROJECT_TOKEN }}
